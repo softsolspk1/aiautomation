@@ -20,7 +20,7 @@ const routes = [
     {
         label: "Dashboard",
         icon: LayoutDashboard,
-        href: "/dashboard",
+        href: "/",
         color: "text-sky-500",
     },
     {
@@ -52,6 +52,12 @@ const routes = [
         icon: MessageSquare,
         href: "/chat",
         color: "text-green-700",
+    },
+    {
+        label: "Tutorial",
+        icon: FileText,
+        href: "/tutorial",
+        color: "text-blue-500",
     },
     {
         label: "Settings",
