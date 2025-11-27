@@ -4,7 +4,7 @@ export default function Home() {
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
         <p className="text-muted-foreground">
-          Welcome to your AI Automation Platform.
+          Welcome to Softsols AI Automation Platform.
         </p>
       </div>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">

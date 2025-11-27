@@ -9,8 +9,8 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Automation Platform",
-  description: "Business automation with AI agents and workflows",
+  title: "Softsols AI Automation",
+  description: "Enterprise-grade business automation with AI agents and workflows",
 };
 
 export default function RootLayout({
