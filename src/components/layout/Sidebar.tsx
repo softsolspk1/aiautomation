@@ -30,6 +30,12 @@ const routes = [
         color: "text-violet-500",
     },
     {
+        label: "AI Bots",
+        icon: Bot,
+        href: "/bots",
+        color: "text-purple-500",
+    },
+    {
         label: "AI Agents",
         icon: Bot,
         href: "/agents",
