@@ -12,6 +12,7 @@ import {
     Puzzle,
     MessageSquare,
     Menu,
+    ShoppingBag,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -40,6 +41,12 @@ const routes = [
         icon: Bot,
         href: "/agents",
         color: "text-pink-700",
+    },
+    {
+        label: "Marketplace",
+        icon: ShoppingBag,
+        href: "/marketplace",
+        color: "text-amber-500",
     },
     {
         label: "Documents",

@@ -49,3 +49,39 @@ export interface Document {
     extracted_data: any;
     created_at: string;
 }
+
+export interface MarketplaceListing {
+    id: string;
+    seller_id: string;
+    bot_id: string | null;
+    title: string;
+    description: string;
+    price: number;
+    currency: string;
+    category: string | null;
+    tags: string[];
+    images: string[];
+    status: string;
+    created_at: string;
+    updated_at: string;
+}
+
+export interface Review {
+    id: string;
+    listing_id: string;
+    user_id: string;
+    rating: number;
+    comment: string | null;
+    created_at: string;
+}
+
+export interface DeveloperProfile {
+    id: string;
+    user_id: string;
+    bio: string | null;
+    website: string | null;
+    github_handle: string | null;
+    payout_info: any;
+    created_at: string;
+    updated_at: string;
+}
